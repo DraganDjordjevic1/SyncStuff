@@ -1,0 +1,15 @@
+﻿<Window x:Class="AsyncWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="input" Height="20" Width="100" HorizontalAlignment="Left" Margin="335,215,0,184"/>
+        <Button Name="PrimeFinderbtn" Width="100" Content="Find Prime" HorizontalAlignment="Left" Margin="335,240,0,153" Click="PrimeFinderBtn_Click"/>
+        <TextBox Name="resultofsearchertxtbox" Width="228" HorizontalAlignment="Left" Margin="280,108,0,224"/>
+
+    </Grid>
+</Window>
